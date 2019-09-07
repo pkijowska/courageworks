@@ -3,14 +3,21 @@ import { getWorks } from "../services/worksServices";
 import Like from "./like";
 import Pagination from "./pagination";
 import { paginate } from "../utils/paginate";
+import ListGroup from "./listGroup";
+import { getArtists } from "../services/artistsServices";
 
 
 class Works extends Component {
 state = {
-  works: getWorks(),
+  works: [],
+  artists: [],
   currentPage: 1,
   pageSize: 4
 };
+
+componentDidMount() {
+  this.setState({works: getWorks(), artists: getArtists() });
+}
 
 handleDelete = (work) => {
   console.log(work);
@@ -35,17 +42,30 @@ handlePageChange = page => {
   console.log(page);
 }
 
+handleArtistSelect = artist => {
+  console.log(artist);
+  this.setState({ selectedArtist: artist });
+};
+
   render() {
     const {length: count } = this.state.works;
-    const {pageSize, currentPage, works: allWorks } = this.state;
+    const {pageSize, currentPage, works: allWorks, selectedArtist } = this.state;
 
     if (count === 0) return <p>Currently no works :( </p>;
 
-    const works = paginate(allWorks, currentPage, pageSize);
+    const filtered = selectedArtist ? allWorks.filter(w => w.artist._id === selectedArtist._id) : allWorks;
+    console.log(filtered);
+
+    const works = paginate(filtered, currentPage, pageSize);
     console.log(works, "works");
 
     return (
-      <div> Current :  {count} works
+      <div className="row">
+      <div className="col-2.5">
+        <ListGroup items={this.state.artists} selectedItem={selectedArtist} onItemSelect={this.handleArtistSelect}/>
+      </div>
+      <div className="col">
+      <p> Current :  {filtered.length} works </p>
     <table className="grid">
     <thead>
     <tr>
@@ -75,7 +95,8 @@ handlePageChange = page => {
         </tbody>
      </table>
      {/* //clicking on the new page will raise the onPageChange */}
-     <Pagination itemsCount={count} pageSize={pageSize} currentPage={currentPage} onPageChange={this.handlePageChange}/>
+     <Pagination itemsCount={filtered.length} pageSize={pageSize} currentPage={currentPage} onPageChange={this.handlePageChange}/>
+     </div>
      </div>
    );
   }
