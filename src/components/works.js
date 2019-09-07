@@ -5,6 +5,7 @@ import Pagination from "./pagination";
 import { paginate } from "../utils/paginate";
 import ListGroup from "./listGroup";
 import { getArtists } from "../services/artistsServices";
+import { Link } from 'react-router-dom';
 
 
 class Works extends Component {
@@ -12,7 +13,7 @@ state = {
   works: [],
   artists: [],
   currentPage: 1,
-  pageSize: 4
+  pageSize: 3
 };
 
 componentDidMount() {
@@ -83,7 +84,7 @@ handleArtistSelect = artist => {
 {works.map(work => (
   <tr key={work._id}>
  <td> <img src={work.img} /> </td>
- <td> {work.title}  </td>
+ <td> <Link to={`/works/${work._id}`}>{work.title} </Link> </td>
  <td> {work.artist.name}  </td>
  <td> {work.numberInStock}  </td>
  <td> {work.price}  </td>
