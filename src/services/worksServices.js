@@ -8,7 +8,8 @@ const works = [
     numberInStock: 60,
     price: 250,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfOMORuss2oe5niuDbPs2OEWMhLvAOQ7cZTj_5Z9lOcVt140f1",
-    publishDate: "2018-01-03T19:04:28.809Z"
+    publishDate: "2018-01-03T19:04:28.809Z",
+    liked: true
   },
   {
     _id: "5b21ca3eeb7f6fbccd471816",
