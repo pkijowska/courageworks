@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom';
 class Nav extends Component {
 
   render() {
+    let widget = window.cloudinary.createUploadWidget({
+      cloudName: "deppqxba7",
+      uploadPreset: "" },
+      (error, result) => {})
+
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -12,11 +17,9 @@ class Nav extends Component {
 <li className="nav-item active">
   <Link className="nav-link" to="/">Buy art <span className="sr-only">(current)</span></Link>
 </li>
+
 <li className="nav-item">
-  <Link className="nav-link" to="/login">360 view</Link>
-  </li>
-<li className="nav-item">
-  <Link className="nav-link" to="/login">Login</Link>
+  <a className="nav-link" href={"https://pkijowska.github.io/courageWorksVR/"} target="_blank">360 view</a>
 </li>
 
 </ul>

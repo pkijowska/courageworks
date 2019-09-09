@@ -12,6 +12,7 @@ const Routes = (
   <Route path="/works/:id" component= { WorkForm } />
 <Route path="/works" component= { Works } />
 <Redirect exact from="/" to="/works" />
+
 </Switch>
   </Router>
 );

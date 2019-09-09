@@ -17,3 +17,10 @@ code {
   top: 0;
   width: 100%;
 }
+
+.img {
+  width: 220px;
+  height: 250px;
+  padding-bottom: 50px;
+    object-fit: cover;
+}

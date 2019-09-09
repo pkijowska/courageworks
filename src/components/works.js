@@ -8,6 +8,7 @@ import { getArtists } from "../services/artistsServices";
 import { Link } from 'react-router-dom';
 
 
+
 class Works extends Component {
 state = {
   works: [],
@@ -15,6 +16,8 @@ state = {
   currentPage: 1,
   pageSize: 3
 };
+
+
 
 componentDidMount() {
   this.setState({works: getWorks(), artists: getArtists() });
@@ -48,7 +51,9 @@ handleArtistSelect = artist => {
   this.setState({ selectedArtist: artist });
 };
 
+
   render() {
+
     const {length: count } = this.state.works;
     const {pageSize, currentPage, works: allWorks, selectedArtist } = this.state;
 
@@ -61,8 +66,10 @@ handleArtistSelect = artist => {
     console.log(works, "works");
 
     return (
+
       <div className="row">
       <div className="col-2.5">
+          { /* // <img src={banksy} alt="" /> */}
         <ListGroup items={this.state.artists} selectedItem={selectedArtist} onItemSelect={this.handleArtistSelect}/>
       </div>
       <div className="col">
@@ -80,10 +87,11 @@ handleArtistSelect = artist => {
       </tr>
     </thead>
     <tbody>
-
 {works.map(work => (
   <tr key={work._id}>
- <td> <img src={work.img} /> </td>
+ <td> <img className="img" src={work.img} />
+
+ </td>
  <td> <Link to={`/works/${work._id}`}>{work.title} </Link> </td>
  <td> {work.artist.name}  </td>
  <td> {work.numberInStock}  </td>
