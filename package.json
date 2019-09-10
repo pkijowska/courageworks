@@ -5,13 +5,14 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
     "lodash": "^4.17.10",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-pixi": "^0.9.19",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
-     "pixi.js": "4.5.1",
+    "react-scripts": "3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

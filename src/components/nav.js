@@ -5,10 +5,6 @@ import { Link } from 'react-router-dom';
 class Nav extends Component {
 
   render() {
-    let widget = window.cloudinary.createUploadWidget({
-      cloudName: "deppqxba7",
-      uploadPreset: "" },
-      (error, result) => {})
 
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">

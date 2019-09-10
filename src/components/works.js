@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 class Works extends Component {
 state = {
   works: [],
@@ -80,7 +81,6 @@ handleArtistSelect = artist => {
       <th>Image</th>
       <th>Title</th>
       <th>Artist</th>
-      <th>Stock</th>
       <th>Price</th>
       <th></th>
       <th></th>
@@ -89,15 +89,14 @@ handleArtistSelect = artist => {
     <tbody>
 {works.map(work => (
   <tr key={work._id}>
- <td> <img className="img" src={work.img} />
+ <td> <Link to={`/works/${work._id}`}><img className="img" src={work.img} /> </Link>
 
  </td>
- <td> <Link to={`/works/${work._id}`}>{work.title} </Link> </td>
+ <td> {work.title} </td>
  <td> {work.artist.name}  </td>
- <td> {work.numberInStock}  </td>
  <td> {work.price}  </td>
  <td> <Like liked={work.liked} onClick={()=> this.handleLike(work)}/> </td>
- <td> <button onClick={()=> this.handleDelete(work)} className="btn btn-danger btn-sm">Delete</button> </td>
+ <td> <button onClick={()=> this.handleDelete(work)} className="btn btn-danger btn-sm">Add to cart</button> </td>
 
         </tr>
       ))}
