@@ -8,7 +8,10 @@ import hush1 from "../static_assets/hush_1.jpg";
 import hush2 from "../static_assets/hush_2.jpg";
 import hush3 from "../static_assets/hush_3.jpg";
 import flower_banksy from "../static_assets/flower_banksy.jpg";
-
+import sitting from "../static_assets/sitting.png";
+import flowers from "../static_assets/flowers.png";
+import church from "../static_assets/church.png";
+import birds from "../static_assets/birds.png";
 
 const works = [
   {
@@ -18,6 +21,7 @@ const works = [
     numberInStock: 60,
     price: "$25 000",
     img: baloon_girl,
+    frame: "175 x 122 x 7 cm",
     publishDate: "2018-01-03T19:04:28.809Z",
     liked: true
   },
@@ -28,6 +32,7 @@ const works = [
     numberInStock: "$50 000",
     price: "$50 000",
     img: migration_birds,
+    frame: "175 x 122 x 7 cm",
   },
   {
     _id: "5b21ca3eeb7f6fbccd471817",
@@ -36,6 +41,7 @@ const works = [
     numberInStock: 8,
     price: "$40 000",
     img: senses_igor,
+    frame: "175 x 122 x 7 cm",
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
@@ -43,7 +49,8 @@ const works = [
     artist: { _id: "5b21ca3eeb7f6fbccd471814", name: "Hush" },
     numberInStock: 7,
     price: "$60 000",
-    img: hush1
+    img: hush1,
+    frame: "175 x 122 x 7 cm",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181a",
@@ -51,7 +58,8 @@ const works = [
     artist: { _id: "5b21ca3eeb7f6fbccd471814", name: "Hush" },
     numberInStock: 70,
     price: "$350 000",
-    img: hush2
+    img: hush2,
+    frame: "175 x 122 x 7 cm",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181b",
@@ -59,7 +67,8 @@ const works = [
     artist: { _id: "5b21ca3eeb7f6fbccd471814", name: "Hush" },
     numberInStock: 17,
     price: "$15 000",
-    img: hush3
+    img: hush3,
+    frame: "175 x 122 x 7 cm",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181e",
@@ -67,7 +76,8 @@ const works = [
     artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
     numberInStock: 20,
     price: "$450 000",
-    img: only_love_igor
+    img: only_love_igor,
+    frame: "175 x 122 x 7 cm",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
@@ -75,7 +85,8 @@ const works = [
     artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
     numberInStock: 4,
     price: "$30000",
-    img: exists_igor
+    img: exists_igor,
+    frame: "175 x 122 x 7 cm",
   },
   {
     _id: "5b21ca3eeb7f6fbccd471821",
@@ -83,8 +94,45 @@ const works = [
     artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
     numberInStock: 70,
     price: "$9000",
-    img: flower_banksy
-  }
+    img: flower_banksy,
+    frame: "175 x 122 x 7 cm",
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471822",
+    title: "Sitting",
+    artist: { _id: "5b21ca3eeb7f6fbccd471821", name: "Marc Novak" },
+    numberInStock: 70,
+    price: "$9000",
+    img: sitting,
+    frame: "175 x 122 x 7 cm",
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471823",
+    title: "Flowers",
+    artist: { _id: "5b21ca3eeb7f6fbccd471821", name: "Marc Novak" },
+    numberInStock: 70,
+    price: "$9000",
+    img: flowers,
+    frame: "175 x 122 x 7 cm",
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471824",
+    title: "Take me to church",
+    artist: { _id: "5b21ca3eeb7f6fbccd471821", name: "Marc Novak" },
+    numberInStock: 70,
+    price: "$9000",
+    img: church,
+    frame: "175 x 122 x 7 cm",
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471825",
+    title: "I love my birds",
+    artist: { _id: "5b21ca3eeb7f6fbccd471821", name: "Marc Novak" },
+    numberInStock: 70,
+    price: "$9000",
+    img: birds,
+    frame: "175 x 122 x 7 cm",
+  },
 ];
 
 export function getWorks() {

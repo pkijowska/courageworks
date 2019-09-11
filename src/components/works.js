@@ -67,14 +67,15 @@ handleArtistSelect = artist => {
     console.log(works, "works");
 
     return (
-
+      <div> <h1 className="courageworks"> CourageWorks </h1>
       <div className="row">
       <div className="col-2.5">
+
           { /* // <img src={banksy} alt="" /> */}
         <ListGroup items={this.state.artists} selectedItem={selectedArtist} onItemSelect={this.handleArtistSelect}/>
       </div>
       <div className="col">
-      <p> Current :  {filtered.length} works </p>
+      <p> Total :  {filtered.length} works </p>
     <table className="grid">
     <thead>
     <tr>
@@ -106,6 +107,7 @@ handleArtistSelect = artist => {
      <Pagination itemsCount={filtered.length} pageSize={pageSize} currentPage={currentPage} onPageChange={this.handlePageChange}/>
      </div>
      </div>
+   </div>
    );
   }
 }
