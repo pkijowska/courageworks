@@ -15,7 +15,7 @@ class Nav extends Component {
 </li>
 
 <li className="nav-item">
-  <a className="nav-link" href={"https://pkijowska.github.io/courageWorksVR/"} target="_blank">360 view</a>
+  <a className="nav-link" href={"https://pkijowska.github.io/ArtTourVR/"} target="_blank">360 view</a>
 </li>
 
 </ul>

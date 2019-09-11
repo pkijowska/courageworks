@@ -2,9 +2,11 @@
   "name": "courageworks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pkijowska.github.io/courageworks/",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.10",
     "react": "^16.9.0",
@@ -15,6 +17,8 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
