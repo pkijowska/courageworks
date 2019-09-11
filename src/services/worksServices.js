@@ -16,7 +16,7 @@ const works = [
     title: "Baloon girl",
     artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
     numberInStock: 60,
-    price: 250,
+    price: "$25 000",
     img: baloon_girl,
     publishDate: "2018-01-03T19:04:28.809Z",
     liked: true
@@ -25,8 +25,8 @@ const works = [
     _id: "5b21ca3eeb7f6fbccd471816",
     title: "Migration birds",
     artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
-    numberInStock: 50,
-    price: 280,
+    numberInStock: "$50 000",
+    price: "$50 000",
     img: migration_birds,
   },
   {
@@ -34,7 +34,7 @@ const works = [
     title: "Exists is not the only way",
     artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
     numberInStock: 8,
-    price: 400,
+    price: "$40 000",
     img: senses_igor,
   },
   {
@@ -42,7 +42,7 @@ const works = [
     title: "Don't forget to say Hi",
     artist: { _id: "5b21ca3eeb7f6fbccd471814", name: "Hush" },
     numberInStock: 7,
-    price: 600,
+    price: "$60 000",
     img: hush1
   },
   {
@@ -50,7 +50,7 @@ const works = [
     title: "Geisha",
     artist: { _id: "5b21ca3eeb7f6fbccd471814", name: "Hush" },
     numberInStock: 70,
-    price: 350,
+    price: "$350 000",
     img: hush2
   },
   {
@@ -58,7 +58,7 @@ const works = [
     title: "Pretty to watch",
     artist: { _id: "5b21ca3eeb7f6fbccd471814", name: "Hush" },
     numberInStock: 17,
-    price: 3.5,
+    price: "$15 000",
     img: hush3
   },
   {
@@ -66,7 +66,7 @@ const works = [
     title: "Awaken your senses",
     artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
     numberInStock: 20,
-    price: 450,
+    price: "$450 000",
     img: only_love_igor
   },
   {
@@ -74,7 +74,7 @@ const works = [
     title: "The Sixth Sense",
     artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
     numberInStock: 4,
-    price: 300,
+    price: "$30000",
     img: exists_igor
   },
   {
@@ -82,7 +82,7 @@ const works = [
     title: "Flower banksy",
     artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
     numberInStock: 70,
-    price: 90,
+    price: "$9000",
     img: flower_banksy
   }
 ];

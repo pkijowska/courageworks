@@ -78,10 +78,10 @@ handleArtistSelect = artist => {
     <table className="grid">
     <thead>
     <tr>
-      <th>Image</th>
-      <th>Title</th>
-      <th>Artist</th>
-      <th>Price</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       </tr>
