@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3a97f020fe616cc550712223e6e9d8e",
+    "revision": "6bf4bcbe5ecbe18910819d51ca3b676a",
     "url": "/courageworks/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/courageworks/static/css/2.70fc37fa.chunk.css"
   },
   {
-    "revision": "c3e432c8029d0f2e757a",
+    "revision": "a5eb99399663f9a365dd",
     "url": "/courageworks/static/css/main.b12e1925.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/courageworks/static/js/2.f3014b72.chunk.js"
   },
   {
-    "revision": "c3e432c8029d0f2e757a",
-    "url": "/courageworks/static/js/main.96aa2dd1.chunk.js"
+    "revision": "a5eb99399663f9a365dd",
+    "url": "/courageworks/static/js/main.e1c9423f.chunk.js"
   },
   {
     "revision": "a9f95f4182d0efd63be0",
