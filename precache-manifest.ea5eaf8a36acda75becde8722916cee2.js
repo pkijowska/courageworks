@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bf4bcbe5ecbe18910819d51ca3b676a",
+    "revision": "20839094d9b5ff2e272c0028353c6ddc",
     "url": "/courageworks/index.html"
   },
   {
-    "revision": "cab777568e88a035e344",
+    "revision": "9fbb042a828293638f73",
     "url": "/courageworks/static/css/2.70fc37fa.chunk.css"
   },
   {
-    "revision": "a5eb99399663f9a365dd",
-    "url": "/courageworks/static/css/main.b12e1925.chunk.css"
+    "revision": "e15848cd4873636ba846",
+    "url": "/courageworks/static/css/main.223679e4.chunk.css"
   },
   {
-    "revision": "cab777568e88a035e344",
-    "url": "/courageworks/static/js/2.f3014b72.chunk.js"
+    "revision": "9fbb042a828293638f73",
+    "url": "/courageworks/static/js/2.7eeb0b97.chunk.js"
   },
   {
-    "revision": "a5eb99399663f9a365dd",
-    "url": "/courageworks/static/js/main.e1c9423f.chunk.js"
+    "revision": "e15848cd4873636ba846",
+    "url": "/courageworks/static/js/main.190d951c.chunk.js"
   },
   {
     "revision": "a9f95f4182d0efd63be0",
@@ -28,12 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/courageworks/static/media/baloon_girl_banksy.4b29ac75.jpg"
   },
   {
+    "revision": "3f03babf4521c38c38eb41f21551a39c",
+    "url": "/courageworks/static/media/birds.3f03babf.png"
+  },
+  {
+    "revision": "bcfb0b984fab49b01e0c48e1b31c1375",
+    "url": "/courageworks/static/media/church.bcfb0b98.png"
+  },
+  {
     "revision": "21cea2eb4723ce0db5c5908107914751",
     "url": "/courageworks/static/media/exists_igor.21cea2eb.jpg"
   },
   {
     "revision": "59adcb6bae222cf472fc7719113abc13",
     "url": "/courageworks/static/media/flower_banksy.59adcb6b.jpg"
+  },
+  {
+    "revision": "d01b172aca06b29626712ccd951277c6",
+    "url": "/courageworks/static/media/flowers.d01b172a.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -78,5 +90,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "424889b085b12e4e29e6d63a16743cf4",
     "url": "/courageworks/static/media/senses_igor.424889b0.jpg"
+  },
+  {
+    "revision": "d61a9f5b26ce9b5e26332f59023a90c1",
+    "url": "/courageworks/static/media/sitting.d61a9f5b.png"
   }
 ]);
