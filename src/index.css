@@ -266,3 +266,56 @@ span {
 .courageworks {
   text-align: center;
 }
+
+
+
+.App {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.container-drag {
+  text-align: center;
+}
+
+.wip {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  left: 0;
+  top: 10;
+  background-color: #EEEEEE;
+  border-right: 1px dotted;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #E0E0E0;
+  width:100%;
+}
+
+.task-header {
+  display: inline-block;
+  width:100%;
+}
+
+.droppable {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  right: 0;
+  top: 10;
+  border-left: 1px dotted;
+}
+
+.draggable {
+  width: 200px;
+  height: 150px;
+  margin: 5px auto;
+  line-height: 5em;
+  overflow: hidden;
+float: right;
+}
