@@ -282,18 +282,17 @@ span {
 .wip {
   position: absolute;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   left: 0;
   top: 10;
-  background-color: #EEEEEE;
   border-right: 1px dotted;
+  background: url(https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 }
 
 .header {
   display: inline-block;
   margin: 0;
   padding: 0;
-  background-color: #E0E0E0;
   width:100%;
 }
 
@@ -303,19 +302,21 @@ span {
 }
 
 .droppable {
+  margin-right: 20px;
   position: absolute;
   width: 50%;
-  height: 50vh;
+  height: 100vh;
   right: 0;
   top: 10;
-  border-left: 1px dotted;
+  border-left: 5px dotted;
+  background: url(https://images.unsplash.com/photo-1504587614488-3259c5c1d9b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 }
 
 .draggable {
   width: 200px;
-  height: 150px;
   margin: 5px auto;
   line-height: 5em;
   overflow: hidden;
 float: right;
+
 }

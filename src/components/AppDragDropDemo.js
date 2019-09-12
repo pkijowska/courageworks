@@ -44,7 +44,7 @@ export default class AppDragDropDemo extends Component {
                     draggable
                     className="draggable"
                 >
-                <img src={t.link} height="150" alt="" />
+                <img src={t.link} height="150"  alt="" />
                 </div>
             );
         });

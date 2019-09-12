@@ -13,6 +13,12 @@ class Nav extends Component {
 <li className="nav-item active">
   <Link className="nav-link" to="/">Buy art <span className="sr-only">(current)</span></Link>
 </li>
+<li className="nav-item active">
+  <Link className="nav-link" to="/drag">Wish List <span className="sr-only">(current)</span></Link>
+</li>
+
+
+
 
 <li className="nav-item">
   <a className="nav-link" href={"https://pkijowska.github.io/ArtTourVR/"} target="_blank">360 view</a>

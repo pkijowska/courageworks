@@ -101,7 +101,7 @@ const works = [
     price: "$30000",
     img: exists_igor,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"complete",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/only_love_igor.579b57a4_w9qnux.jpg"
   },
   {
@@ -135,7 +135,7 @@ const works = [
     img: flowers,
     frame: "175 x 122 x 7 cm",
     category:"wip",
-    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252893/flowers_l9akbk.png"
+    
   },
   {
     _id: "5b21ca3eeb7f6fbccd471824",
@@ -146,7 +146,7 @@ const works = [
     img: church,
     frame: "175 x 122 x 7 cm",
     category:"wip",
-    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252886/church_qkmlyg.png",
+
   },
   {
     _id: "5b21ca3eeb7f6fbccd471825",
