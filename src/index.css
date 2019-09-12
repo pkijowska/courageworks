@@ -7,7 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E3D8F1 !important;
 font-family: 'Chilanka', cursive !important;
 }
 
@@ -20,7 +19,8 @@ code {
   position: absolute !important;
   top: 0;
   width: 100%;
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img {
@@ -43,8 +43,8 @@ code {
 }
 
 .img:hover {
-  border: 7px solid #D7B8F3;
-  box-shadow: 0 0 15px #D7B8F3;
+  border: 7px solid #ffffef;
+  box-shadow: 0 0 15px #ffffef;
   transition: all 0.5s ease;
 }
 
@@ -205,9 +205,7 @@ span {
       object-fit: cover;
 }
 
-.list-group-item {
-  margin-left: 4em !important;
-}
+
 
 .product-price-btn button {
   float: right;
@@ -243,18 +241,22 @@ span {
   }
 
   .list-group-item {
-    background: url(https://images.unsplash.com/photo-1524246218500-3dad00b8975d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+      background-color: #ffffef;
     font-size: 17px !important;
     padding: 0.50rem 1.25rem !important;
+    margin-left: 4px;
   }
 
 .list-group-item.active {
   color: black !important;
   font-weight: bolder;
+  background-color: #ffffef !important;
+  border-color: #ffffef !important;
 }
 
 .page-item.active .page-link {
-    background: url(https://images.unsplash.com/photo-1524246218500-3dad00b8975d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-color: #ffffef !important;
+  border-color: #ffffef !important;
     color: black;
 
 }
@@ -302,7 +304,6 @@ span {
 }
 
 .droppable {
-  margin-right: 20px;
   position: absolute;
   width: 50%;
   height: 100vh;
@@ -319,4 +320,9 @@ span {
   overflow: hidden;
 float: right;
 
+}
+
+.container{
+  background: url(https://res.cloudinary.com/deppqxba7/image/upload/v1568262566/painting_1_yuudns.png);
+  background-size: cover;
 }

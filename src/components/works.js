@@ -67,7 +67,7 @@ handleArtistSelect = artist => {
     console.log(works, "works");
 
     return (
-      <div> <h1 className="courageworks"> CourageWorks </h1>
+      <div class="container"> <h1 className="courageworks"> CourageWorks </h1>
       <div className="row">
       <div className="col-2.5">
 

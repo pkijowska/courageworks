@@ -2,9 +2,9 @@ body {
 margin: 0;
 padding: 60px 0 0 0;
 font-family: sans-serif;
-
+background-color: #fff8fe;
 }
 
 th, td {
-  padding-left: 50px;
+  padding-left: 30px;
 }
