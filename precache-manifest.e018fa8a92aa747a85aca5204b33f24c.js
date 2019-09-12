@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20839094d9b5ff2e272c0028353c6ddc",
+    "revision": "da80f7f1acceedcaad46d97a809823fd",
     "url": "/courageworks/index.html"
   },
   {
-    "revision": "9fbb042a828293638f73",
+    "revision": "0368b455ac595adc6896",
     "url": "/courageworks/static/css/2.70fc37fa.chunk.css"
   },
   {
-    "revision": "e15848cd4873636ba846",
-    "url": "/courageworks/static/css/main.223679e4.chunk.css"
+    "revision": "23e2a335b833f7c42665",
+    "url": "/courageworks/static/css/main.b9e78acf.chunk.css"
   },
   {
-    "revision": "9fbb042a828293638f73",
-    "url": "/courageworks/static/js/2.7eeb0b97.chunk.js"
+    "revision": "0368b455ac595adc6896",
+    "url": "/courageworks/static/js/2.6108a05f.chunk.js"
   },
   {
-    "revision": "e15848cd4873636ba846",
-    "url": "/courageworks/static/js/main.190d951c.chunk.js"
+    "revision": "23e2a335b833f7c42665",
+    "url": "/courageworks/static/js/main.4e6f155a.chunk.js"
   },
   {
     "revision": "a9f95f4182d0efd63be0",
