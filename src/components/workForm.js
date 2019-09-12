@@ -15,6 +15,7 @@ constructor(props) {
 
   render() {
     return (
+
       <div class="wrapper">
         <div class="product-img">
          {this.state.works.map(work => ( <img className="workimg" src={work.img} height="512" width="317"/>
@@ -39,8 +40,7 @@ constructor(props) {
             </div>
           </div>
         </div>
-
-
+      
     );
   }
 

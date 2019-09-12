@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 font-family: 'Chilanka', cursive !important;
+background-color: #FFFDE7 !important;
 }
 
 code {
@@ -55,7 +56,7 @@ code {
 
 .parallax {
   position: fixed;
-	width: 20%;
+	width: 18%;
 	/* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
 
 }
@@ -64,12 +65,18 @@ code {
 top: 240px;
 margin-top: 2rem;
 left: 8%;
+/* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
+  border: 5px double orange;
 }
 
 .blimp {
-  top: 320px;
+  top: 314px;
   margin-top: 2rem;
   left: 24%;
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 98%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
+    border: 5px double orange;
 }
 
 .gherkin {
@@ -77,18 +84,28 @@ left: 8%;
   margin-top: 4rem;
   left: 40%;
   z-index: 10;
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 97%); */
+    border: 5px double orange;
 }
 
 .bull {
-  top: 320px;
+  top: 325px;
   margin-top: 2rem;
+  margin-bottom: 1rem;
   left: 56%;
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 97%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
+    border: 5px double orange;
 }
 
 .dino {
   top: 240px;
   margin-top: 2rem;
   left: 72%;
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%); */
+    border: 5px double orange;
 }
 
 
@@ -177,28 +194,10 @@ span {
   font-size: 34px;
 }
 
-.product-price-btn button {
-  float: right;
-  display: inline-block;
-  height: 50px;
-  width: 176px;
-  margin: 0 40px 0 16px;
-  box-sizing: border-box;
-  border: transparent;
-  border-radius: 60px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  background-color: #9cebd5;
-  cursor: pointer;
-  outline: none;
-}
+
 
 .product-price-btn button:hover {
-  background-color: #79b0a1;
+  background-color: orange;
 }
 
 .workimg {
@@ -221,14 +220,12 @@ span {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #ffffff;
-  background-color: #9cebd5;
+  background-color: #ffedcc;
   cursor: pointer;
   outline: none;
 }
 
-.product-price-btn button:hover {
-  background-color: #79b0a1;
-}
+
 
 .titleWeight {
   font-size: 20px;
@@ -325,4 +322,54 @@ float: right;
 .container{
   background: url(https://res.cloudinary.com/deppqxba7/image/upload/v1568262566/painting_1_yuudns.png);
   background-size: cover;
+}
+
+.h1Parallax {
+  display: block;
+font-size: 60px;
+font-weight: 400;
+animation-name: moveInLeft;
+animation-duration: 5s;
+letter-spacing: 8px;
+}
+
+.parap {
+
+  animation-name: moveInRight;
+  animation-duration: 6s;
+}
+
+@keyframes moveInLeft {
+0% {
+opacity: 0;
+transform: translateX(-150px);
+
+}
+
+60% {
+letter-spacing: 16px;
+}
+100% {
+opacity: 1;
+transform: translate(0);
+letter-spacing: 8px;
+}
+
+}
+
+@keyframes moveInRight {
+0% {
+opacity: 0;
+transform: translateX(150px);
+
+}
+
+60% {
+
+}
+100% {
+opacity: 1;
+transform: translate(0);
+}
+
 }

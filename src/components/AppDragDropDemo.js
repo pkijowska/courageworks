@@ -23,6 +23,7 @@ export default class AppDragDropDemo extends Component {
                task.category = cat;
            }
            return task;
+           console.log(task);
        });
 
        this.setState({
@@ -51,7 +52,7 @@ export default class AppDragDropDemo extends Component {
 
         return (
             <div className="container-drag">
-                <h2 className="header">CourageWorks</h2>
+  
                 <div className="wip"
                     onDragOver={(e)=>this.onDragOver(e)}
                     onDrop={(e)=>{this.onDrop(e, "wip")}}>

@@ -14,30 +14,8 @@ import church from "../static_assets/church.png";
 import birds from "../static_assets/birds.png";
 
 const works = [
-  {
-    _id: "5b21ca3eeb7f6fbccd471815",
-    title: "Baloon girl",
-    artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
-    numberInStock: 60,
-    price: "$25 000",
-    img: baloon_girl,
-    frame: "175 x 122 x 7 cm",
-    publishDate: "2018-01-03T19:04:28.809Z",
-    liked: true,
-    category:"wip",
-    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252461/baloon_girl_banksy.4b29ac75_wpnjvu.jpg"
-  },
-  {
-    _id: "5b21ca3eeb7f6fbccd471816",
-    title: "Migration birds",
-    artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
-    numberInStock: "$50 000",
-    price: "$50 000",
-    img: migration_birds,
-    frame: "175 x 122 x 7 cm",
-    category:"wip",
-    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252586/migration_birds_v4mkc3.jpg"
-  },
+
+
   {
     _id: "5b21ca3eeb7f6fbccd471817",
     title: "Exists is not the only way",
@@ -48,6 +26,28 @@ const works = [
     frame: "175 x 122 x 7 cm",
     category:"wip",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/exists_igor.21cea2eb_fdlqh7.jpg"
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd47181e",
+    title: "Awaken your senses",
+    artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
+    numberInStock: 20,
+    price: "$450 000",
+    img: only_love_igor,
+    frame: "175 x 122 x 7 cm",
+    category:"wip",
+    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/senses_igor_uaoetk.jpg"
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd47181f",
+    title: "The Sixth Sense",
+    artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
+    numberInStock: 4,
+    price: "$30000",
+    img: exists_igor,
+    frame: "175 x 122 x 7 cm",
+    category:"wip",
+    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/only_love_igor.579b57a4_w9qnux.jpg"
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
@@ -83,26 +83,28 @@ const works = [
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252483/hush_1.469ed245_obu4zm.jpg"
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181e",
-    title: "Awaken your senses",
-    artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
-    numberInStock: 20,
-    price: "$450 000",
-    img: only_love_igor,
+    _id: "5b21ca3eeb7f6fbccd471815",
+    title: "Baloon girl",
+    artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
+    numberInStock: 60,
+    price: "$25 000",
+    img: baloon_girl,
     frame: "175 x 122 x 7 cm",
+    publishDate: "2018-01-03T19:04:28.809Z",
+    liked: true,
     category:"wip",
-    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/senses_igor_uaoetk.jpg"
+    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252461/baloon_girl_banksy.4b29ac75_wpnjvu.jpg"
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181f",
-    title: "The Sixth Sense",
-    artist: { _id: "5b21ca3eeb7f6fbccd471820", name: "Igor Dobrowolski" },
-    numberInStock: 4,
-    price: "$30000",
-    img: exists_igor,
+    _id: "5b21ca3eeb7f6fbccd471816",
+    title: "Migration birds",
+    artist: { _id: "5b21ca3eeb7f6fbccd471818", name: "Banksy" },
+    numberInStock: "$50 000",
+    price: "$50 000",
+    img: migration_birds,
     frame: "175 x 122 x 7 cm",
-    category:"complete",
-    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/only_love_igor.579b57a4_w9qnux.jpg"
+    category:"wip",
+    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252586/migration_birds_v4mkc3.jpg"
   },
   {
     _id: "5b21ca3eeb7f6fbccd471821",
@@ -124,7 +126,7 @@ const works = [
     img: sitting,
     frame: "175 x 122 x 7 cm",
     category:"wip",
-    link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252879/sitting_jtt3cu.png",
+
   },
   {
     _id: "5b21ca3eeb7f6fbccd471823",
@@ -135,7 +137,7 @@ const works = [
     img: flowers,
     frame: "175 x 122 x 7 cm",
     category:"wip",
-    
+
   },
   {
     _id: "5b21ca3eeb7f6fbccd471824",
