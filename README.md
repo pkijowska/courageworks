@@ -7,7 +7,7 @@
 
 - ** React.js, React 360, CSS, Bootstrap, Cloudinary-react,  **
 
-[Main](https://res.cloudinary.com/deppqxba7/image/upload/v1568336930/couragework_mainpage_n4uuov.png)
+![Image](https://res.cloudinary.com/deppqxba7/image/upload/v1568336930/couragework_mainpage_n4uuov.png)
 
 ## Challenges:
 
