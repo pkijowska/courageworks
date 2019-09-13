@@ -13,9 +13,9 @@ const Routes = (
   <Switch>
   <Route path="/works/:id" component= { WorkForm } />
 <Route path="/works" component= { Works } />
-<Route path="/main" component= { LandingPage } />
+<Route path="/about" component= { LandingPage } />
 <Route path="/drag" component= { AppDragDropDemo } />
-<Redirect exact from="/" to="/works" />
+<Redirect exact from="/" to="/about" />
 
 </Switch>
   </Router>

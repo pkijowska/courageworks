@@ -24,12 +24,7 @@ componentDidMount() {
   this.setState({works: getWorks(), artists: getArtists() });
 }
 
-handleDelete = (work) => {
-  console.log(work);
-  const works = this.state.works.filter(w => w._id !== work._id);
-  this.setState({works: works})
-  // const newWork = this.state.works.filter( !w => w.work )
-}
+
 
 handleLike = (work) => {
   const works = [...this.state.works];
@@ -64,6 +59,8 @@ handleArtistSelect = artist => {
     console.log(filtered);
 
     const works = paginate(filtered, currentPage, pageSize);
+
+    {/* This will enable us to receive the total number of objects that will be displayed on each page. */}
     console.log(works, "works");
 
     return (
@@ -97,7 +94,7 @@ handleArtistSelect = artist => {
  <td> {work.artist.name}  </td>
  <td> {work.price}  </td>
  <td> <Like liked={work.liked} onClick={()=> this.handleLike(work)}/> </td>
- <td> <button onClick={()=> this.handleDelete(work)} className="btn btn-danger btn-sm">Add to cart</button> </td>
+ <td> <button className="btn btn-danger btn-sm">Add to cart</button> </td>
 
         </tr>
       ))}

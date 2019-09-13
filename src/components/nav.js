@@ -11,7 +11,7 @@ class Nav extends Component {
   <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
   <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 <li className="nav-item active">
-  <Link className="nav-link" to="/">Buy art <span className="sr-only">(current)</span></Link>
+  <Link className="nav-link" to="/works">Buy art <span className="sr-only">(current)</span></Link>
 </li>
 <li className="nav-item active">
   <Link className="nav-link" to="/drag">Wish List <span className="sr-only">(current)</span></Link>

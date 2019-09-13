@@ -24,7 +24,7 @@ const works = [
     price: "$40 000",
     img: senses_igor,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/exists_igor.21cea2eb_fdlqh7.jpg"
   },
   {
@@ -35,7 +35,7 @@ const works = [
     price: "$450 000",
     img: only_love_igor,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/senses_igor_uaoetk.jpg"
   },
   {
@@ -46,7 +46,7 @@ const works = [
     price: "$30000",
     img: exists_igor,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252565/only_love_igor.579b57a4_w9qnux.jpg"
   },
   {
@@ -57,7 +57,7 @@ const works = [
     price: "$60 000",
     img: hush1,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: 'https://res.cloudinary.com/deppqxba7/image/upload/v1568252485/hush_3.5e7380d2_j97iyr.jpg'
   },
   {
@@ -68,7 +68,7 @@ const works = [
     price: "$350 000",
     img: hush2,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: 'https://res.cloudinary.com/deppqxba7/image/upload/v1568252484/hush_2.585e47d5_o7ywzo.jpg',
   },
   {
@@ -79,7 +79,7 @@ const works = [
     price: "$15 000",
     img: hush3,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252483/hush_1.469ed245_obu4zm.jpg"
   },
   {
@@ -92,7 +92,7 @@ const works = [
     frame: "175 x 122 x 7 cm",
     publishDate: "2018-01-03T19:04:28.809Z",
     liked: true,
-    category:"wip",
+    category:"before",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252461/baloon_girl_banksy.4b29ac75_wpnjvu.jpg"
   },
   {
@@ -103,7 +103,7 @@ const works = [
     price: "$50 000",
     img: migration_birds,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568252586/migration_birds_v4mkc3.jpg"
   },
   {
@@ -114,7 +114,7 @@ const works = [
     price: "$9000",
     img: flower_banksy,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
     link: "https://res.cloudinary.com/deppqxba7/image/upload/v1568253200/flower_banksy.59adcb6b_qo9cqe.jpg",
   },
   {
@@ -125,7 +125,7 @@ const works = [
     price: "$9000",
     img: sitting,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
 
   },
   {
@@ -136,7 +136,7 @@ const works = [
     price: "$9000",
     img: flowers,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
 
   },
   {
@@ -147,7 +147,7 @@ const works = [
     price: "$9000",
     img: church,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
 
   },
   {
@@ -158,7 +158,7 @@ const works = [
     price: "$9000",
     img: birds,
     frame: "175 x 122 x 7 cm",
-    category:"wip",
+    category:"before",
   },
 ];
 

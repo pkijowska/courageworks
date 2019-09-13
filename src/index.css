@@ -61,35 +61,29 @@ code {
 
 }
 
-.skyline {
+.pinkPick {
 top: 240px;
 margin-top: 2rem;
 left: 8%;
-/* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
   border: 5px double orange;
 }
 
-.blimp {
+.handPick {
   top: 314px;
   margin-top: 2rem;
   left: 24%;
-  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 98%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
     border: 5px double orange;
 }
 
-.gherkin {
+.midPick {
   top: 200px;
   margin-top: 4rem;
   left: 40%;
   z-index: 10;
-  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 97%); */
     border: 5px double orange;
 }
 
-.bull {
+.yelloPick {
   top: 325px;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -99,7 +93,7 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
     border: 5px double orange;
 }
 
-.dino {
+.lastPick {
   top: 240px;
   margin-top: 2rem;
   left: 72%;
@@ -114,7 +108,6 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
   height: 520px;
   width: 654px;
   margin: 50px auto;
-  border-radius: 7px 7px 7px 7px;
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -134,7 +127,6 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
   float: left;
   height: 520px;
   width: 327px;
-  border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
 }
 
@@ -180,19 +172,13 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
   position: absolute;
   top: -13px;
   height: 50px;
-  font-family: 'Trocchi', serif;
   margin: 0 0 0 38px;
   font-size: 28px;
   font-weight: lighter;
   color: #474747;
 }
 
-span {
-  display: inline-block;
-  height: 50px;
-  font-family: 'Suranna', serif;
-  font-size: 34px;
-}
+
 
 
 
@@ -208,20 +194,17 @@ span {
 
 .product-price-btn button {
   float: right;
-  display: inline-block;
   height: 50px;
   width: 176px;
   margin: 0 40px 0 16px;
-  box-sizing: border-box;
   border: transparent;
   border-radius: 60px;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #ffffff;
+  color: white;
   background-color: #ffedcc;
-  cursor: pointer;
   outline: none;
 }
 
@@ -278,7 +261,7 @@ span {
   text-align: center;
 }
 
-.wip {
+.before {
   position: absolute;
   width: 50%;
   height: 100%;
@@ -295,8 +278,9 @@ span {
   width:100%;
 }
 
-.task-header {
+.painting-header {
   display: inline-block;
+  font-size: 30px;
   width:100%;
 }
 
@@ -311,7 +295,8 @@ span {
 }
 
 .draggable {
-  width: 200px;
+  width: 190px;
+  height: 250px;
   margin: 5px auto;
   line-height: 5em;
   overflow: hidden;
