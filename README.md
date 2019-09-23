@@ -31,7 +31,6 @@
 
 360 view section:
 - [x] You can see some paintings in 360 perspective:
-![Image](https://res.cloudinary.com/deppqxba7/image/upload/v1569281285/Screen_Shot_2019-09-24_at_09.27.46_ibo1lq.png)
 - [x] Clicking on the box will start music playing and an interactive screen will appear
 ![Image](https://res.cloudinary.com/deppqxba7/image/upload/v1569281627/Screen_Shot_2019-09-24_at_09.32.11_r5bcon.png)
 - [x] Hovering over icons will show details about each painting
@@ -63,6 +62,11 @@ buy the work.
 - Add backend for the full functionality
 - Brush up the VR thing. Add more VR features?
 
+## Thank you:
+- Rashida for telling me to stick to the VR idea
+- All my lovely classmates from SEI33. You guys challenged me so much and I have learnt so much because of you.
+- Joel for continous support
+- My boyfriend (who is not a programmer) to pat me on back and tell me I am doing great (I did really needed it!)  
 
 ## How to install:
 
